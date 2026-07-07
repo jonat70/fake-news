@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checagem de Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📰 Checagem de Notícias</h1>
+    <p>Clique no cartão para revelar a informação correta.</p>
+</header>
+
+<div class="container">
+
+    <div class="card" onclick="this.classList.toggle('virar')">
+        <div class="card-inner">
+
+            <div class="frente">
+                <img src="imagens/fake1.jpg" alt="Notícia falsa">
+                <h2>❌ Notícia Falsa</h2>
+                <p>"Beber água com limão cura qualquer doença."</p>
+            </div>
+
+            <div class="verso">
+                <img src="imagens/real1.jpg" alt="Notícia verdadeira">
+                <h2>✅ Informação Correta</h2>
+                <p>Água com limão pode fazer parte de uma alimentação saudável, mas não cura doenças.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('virar')">
+        <div class="card-inner">
+
+            <div class="frente">
+                <img src="imagens/fake2.jpg" alt="Notícia falsa">
+                <h2>❌ Notícia Falsa</h2>
+                <p>"A Lua produz luz própria."</p>
+            </div>
+
+            <div class="verso">
+                <img src="imagens/real2.jpg" alt="Notícia verdadeira">
+                <h2>✅ Informação Correta</h2>
+                <p>A Lua não produz luz própria. Ela reflete a luz do Sol.</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
